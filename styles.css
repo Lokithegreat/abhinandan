@@ -1,0 +1,269 @@
+body{
+    background-color: #00ff00;
+    display: flex;
+    flex-direction: column;
+}
+#div1{
+    text-align: center;
+}
+#div3{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+
+ }
+ .box{
+    width: 500px;
+    height: 300px;
+    border: 2px solid white; 
+    
+}
+#box1{
+    
+    /* margin-left : 100px;
+    margin-top: 50px;
+    margin-right: auto; */
+    background-color: white;
+}
+#box2{
+    /* float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: auto; */
+    background-color: black;
+}
+
+#b1{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    position:relative;
+    bottom: -250px;
+    border-color: black;
+
+}
+#b2{
+    width: 600px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    
+    border-color: black;
+
+}
+.box{
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+}
+#box1{
+    
+   
+    margin-top: 50px;
+    
+    background-color: white;
+}
+#box2{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: black;
+}
+
+#b2{
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border-color: black;
+
+}
+#b1{
+    display: none;
+}
+@media screen and (min-width:601px) {
+    #b1{
+        display: none;
+    }
+    #b2{
+        width: 95%;
+        margin: auto;
+        height: 50px;
+        color: white;
+        background-color: red;  
+        border-color: black;
+    
+    }
+    #box1{
+        float: left;
+        margin-left:20px;
+        margin-right: auto;
+        
+    }
+    #box2{
+        float: right;
+        margin-right: 150px;
+        margin-left: auto;
+    }
+    .box{
+        width: 200px;
+    }
+
+
+}
+@media screen and (min-width:769px) {
+    #b2{ 
+        display: none;
+
+    }
+    #box1{
+        float: left;
+        margin-left:60px;
+        margin-right: auto;
+        width: 35%;
+        
+    }
+    #box2{
+        float: right;
+        margin-right: 60px;
+        margin-left: auto;
+        width: 35%;
+    }
+    .box{
+        width: 200px;
+    }
+    #b1{
+        width: 100%;
+        display: block;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color: #00ff00;
+
+}
+#div1{
+    text-align: center;
+}
+#div3{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+
+ }
+
+
+.box{
+    width: 600px;
+    height: 400px;
+    border: 2px solid white; 
+}
+#box1{
+    / check other float: left;
+    margin-left : 100px;
+    margin-top: 50px;
+    margin-right: auto;
+    background-color: white;
+}
+#box2{
+    / check other float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    background-color: black;
+}
+textarea{
+    height: 400px;
+    width: 600px;
+}
+button{
+    width: 600px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    position:relative;
+    bottom: -350px;
+    border-color: black;
+
+}
+@media screen and (max-width: 600px){
+    .box{
+        width: 50%;
+        height: 300px;
+        border: 2px solid white; 
+        margin: auto;
+        padding: 10px;
+        
+    }
+    textarea{
+        width: 50%;
+        height: 300px;
+        border: 2px solid white; 
+        margin: auto;
+        padding: 10px;
+        
+        
+    }
+    button{
+        width:100%;
+        position: relative;
+        
+        margin: auto;
+        padding: 10px;
+    }
+    @media screen and (min-width: 601px) and (max-width: 1023px){
+        .box{
+            width: 300px;
+            height: 600px;
+            border: 2px solid white; 
+            margin: auto;
+            padding: 10px;
+            
+          }
+          textarea{
+            width: 300px;
+            height: 600px;
+            border: 2px solid white; 
+            margin: auto;
+            padding: 10px;
+            float: left;
+            
+            
+        }
+        #box1{
+            float: left;
+        }
+        #box2{
+            float: right;
+        }
+    
+
+
+    }
+
+    
+} */
